@@ -1,0 +1,61 @@
+/* navbar */
+.navbar_main {
+    z-index: 100;
+    top: 0px;
+    background: rgba(0,0,0,0.65);
+    width: 100%;
+    position: fixed;
+    backdrop-filter: saturate(200%) blur(15px);
+    
+}
+
+.nav-contents {
+    text-align: center;
+}
+
+.nav-list {
+    color: white ;
+    list-style: none;
+    display: inline-flex;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-inline-start: 0px;
+    transition: 0.3s;
+}
+
+.nav-item {
+    font-family: 'Montserrat Alternates';
+    margin: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+    .nav-list {
+        width: 80% !important;
+
+    }  
+}
+
+@media only screen and (max-width: 1500px) {
+    .nav-list {
+        width: 65% !important;
+
+    }  
+}
+
+
+.nav-item a {
+    color: white !important;
+    text-decoration: unset !important; 
+    font-size: 1.2rem !important;
+    transition: 0.3s;
+}
+
+.logo {
+    font-family: 'Kaushan Script';
+}
+
+.nav-item a:hover {
+    color: #9cff99 !important;
+    text-decoration: unset; 
+}

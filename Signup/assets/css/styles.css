@@ -1,0 +1,154 @@
+.container {
+  width: 100% !important;
+}
+
+.col-sm-6 {
+  width: 80% !important;
+}
+
+#datetimepicker1 {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.register-photo {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/img/orlova-maria-oMTlhdFUhdI-unsplash.jpg");
+}
+
+.image-holder {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+form {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.row h2 {
+  font-family: 'Montserrat Alternates' !important;
+  font-size: 1.5rem !important;
+  color: white !important;
+}
+
+.register-photo {
+  font-family: 'Montserrat Alternates' !important;
+  font-size: 1rem !important;
+  color: #202020 !important;
+}
+.row {
+  height: 50px !important;
+}
+
+.register-photo {
+  padding-top: 10% !important;
+}
+
+.register-photo form {
+  background-color: #2b2b2b !important;
+}
+
+.text-center {
+  color: white !important;
+}
+
+.btn:hover {
+  background-color: teal !important;
+}
+
+/* navbar */
+.navbar_main {
+  z-index: 100;
+  top: 0px;
+  background: rgba(0,0,0,0.65);
+  width: 100%;
+  position: fixed;
+  backdrop-filter: saturate(200%) blur(15px);
+  
+}
+
+.nav-contents {
+  text-align: center;
+}
+
+.nav-list {
+  color: white ;
+  list-style: none;
+  display: inline-flex;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-inline-start: 0px;
+}
+
+.nav-item {
+  font-family: 'Montserrat Alternates';
+  margin: auto;
+}
+
+.nav-item a {
+  color: white !important;
+  text-decoration: unset !important; 
+  font-size: 1.2rem !important;
+  transition: 0.3s;
+}
+
+.logo {
+  font-family: 'Kaushan Script';
+}
+
+.nav-item a:hover {
+  color: #9cff99 !important;
+  text-decoration: unset; 
+}
+
+.form-group input {
+  background-color: #ebebeb!important;
+  border-radius: 5px !important;
+}
+.signuperror {
+  color : red;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Montserrat Alternates';
+}
+.signupsuccess {
+  color : #96e655;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Montserrat Alternates';
+  text-align: center;
+}
+
+.loginlink {
+  border: 5px solid red;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  text-align: center;
+  margin: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  text-decoration-line: underline;
+  font-family: 'Montserrat Alternates';
+  font-size: 22px;
+}
+
+#signup_error {
+  color:#ff2424;
+  font-family: 'Montserrat Alternates';
+  font-size: medium;
+  font-weight: bolder; 
+}
+
+html {
+  font-size: unset !important;
+}
+
+#already_id:hover {
+  color: white !important;
+}

@@ -1,0 +1,19 @@
+CREATE DATABASE first_try;
+
+CREATE TABLE users (
+    idusers int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    uidusers TINYTEXT NOT NULL,
+    emailusers TINYTEXT NOT NULL,
+    pwdusers LONGTEXT NOT NULL,
+    userimg LONGBLOB 
+    );
+
+CREATE TABLE booktable (
+    bookId int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    bookName TINYTEXT NOT NULL,
+    bookMail TINYTEXT NOT NULL,
+    bookDate TINYTEXT NOT NULL,
+    bookTime TINYTEXT NOT NULL,
+    bookSeat TINYTEXT NOT NULL,
+    bstatus INT(1) DEFAULT '0'
+    );

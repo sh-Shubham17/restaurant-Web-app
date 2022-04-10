@@ -1,0 +1,116 @@
+#carousel-1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-74%,-50%);
+  border-radius: 5px;
+}
+
+body {
+  font-family: 'Montserrat Alternates' ;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.w-100.d-block {
+  object-fit: cover;
+  height: 100%;
+}
+
+.background {
+  position: fixed;
+  background-image: url("../../assets/img/carousel5.jpg");
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.background_2 {
+  position: fixed;
+}
+
+/* navbar */
+.navbar_main {
+  z-index: 100;
+  top: 0px;
+  background: rgba(0,0,0,0.65);
+  width: 100%;
+  position: fixed;
+  backdrop-filter: saturate(200%) blur(15px);
+  
+}
+
+.nav-contents {
+  text-align: center;
+}
+
+.nav-list {
+  color: white ;
+  list-style: none;
+  display: inline-flex;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-inline-start: 0px;
+}
+
+.nav-item {
+  font-family: 'Montserrat Alternates';
+  margin: auto;
+}
+
+.nav-item a {
+  color: white !important;
+  text-decoration: unset !important; 
+  font-size: 1.2rem !important;
+}
+
+.logo {
+  font-family: 'Kaushan Script';
+}
+
+.nav-item a:hover {
+  color: #9cff99 !important;
+  text-decoration: unset; 
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.login-dark form {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #2b2b2b !important;
+}
+
+.carousel-inner {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .nav-list {
+      width: 80%;
+
+  }
+}
+
+.loginsuccess {
+  color : #96e655;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Montserrat Alternates';
+  text-align: center;
+  margin-top: 50px !important;
+}
+
+#login_error {
+  color:#ff2424 !important  ;
+  font-family: 'Montserrat Alternates';
+  font-size: medium;
+  font-weight: bolder; 
+}

@@ -1,0 +1,89 @@
+body {
+    margin: auto;
+    background-image: url(./img/team_bg.jpg);
+    background-size: cover;
+}
+
+/* Hide scrollbar*/
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+  html {
+      font-size: unset !important;
+  }
+
+/* navbar */
+    .navbar_main {
+        z-index: 100;
+        top: 0px;
+        background: rgba(0,0,0,0.65);
+        width: 100%;
+        position: fixed;
+        backdrop-filter: saturate(200%) blur(15px);
+        
+    }
+
+    .nav-contents {
+        text-align: center;
+    }
+
+    .nav-list {
+        color: white ;
+        list-style: none;
+        display: inline-flex;
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-inline-start: 0px;
+    }
+
+    .nav-item {
+        font-family: 'Montserrat Alternates';
+        margin: auto;
+    }
+
+    .nav-item a {
+        color: white !important;
+        text-decoration: unset !important; 
+        font-size: 1.2rem !important;
+    }
+
+    .logo {
+        font-family: 'Kaushan Script';
+    }
+
+    .nav-item a:hover {
+        color: #9cff99 !important;
+        text-decoration: unset; 
+    }
+
+.card-container {
+    width: 40% !important;
+    display: inline-block;
+}
+
+.card_main {
+    height: 420px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#team h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Kaushan Script';
+    text-align: center;
+    padding-top: 40px;
+}
+
+.front {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+.back {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
