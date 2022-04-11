@@ -481,7 +481,7 @@ require 'loader.html';
                         <div class="col-sm-6 col-md-3 item">
                             <h3>About</h3>
                             <ul>
-                                <li><a href="./team.html">Team</a></li>
+                                <li><a href="./team.php">Team</a></li>
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="./login.php">Login</a></li>
                             </ul>

@@ -14,11 +14,11 @@ session_start();
     <nav class="navbar_main">
         <div class="nav-contents">
             <ul class="nav-list">
-                <li class="nav-item"><a class="logo" href="home.php#a_logo">Restauranté</a></li>
-                <li class="nav-item"><a href="home.php#">Home</a></li>
-                <li class="nav-item"><a href="home.php#a_gallery">Gallery</a></li>
-                <li class="nav-item"><a href="home.php#a_menu">Menu</a></li>
-                <li class="nav-item"><a href="home.php#a_about">About</a></li>
+                <li class="nav-item"><a class="logo" href="index.php#a_logo">Restauranté</a></li>
+                <li class="nav-item"><a href="index.php#">Home</a></li>
+                <li class="nav-item"><a href="index.php#a_gallery">Gallery</a></li>
+                <li class="nav-item"><a href="index.php#a_menu">Menu</a></li>
+                <li class="nav-item"><a href="index.php#a_about">About</a></li>
                 <?php 
                     if (isset($_SESSION['userId'])){
                         echo '<li class="nav-item"><a href="includes\logout.inc.php">Logout</a></li>';
