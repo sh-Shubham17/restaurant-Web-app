@@ -1,4 +1,5 @@
 Link to our web application :- https://restaurante-web-app.herokuapp.com/ 
+deployed on heroku.com
 
 About web application 
 
