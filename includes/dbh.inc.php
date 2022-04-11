@@ -1,9 +1,20 @@
 <?php
 
-$servername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
-$dbName = "first_try";
+// development connection 
+// for connection to localhost use these commented data
+// $servername = "localhost";
+// $dbUsername = "root";
+// $dbPassword = "";
+// $dbName = "first_try";
+
+
+// for deployment 
+//remote mysql database connection
+$servername = "remotemysql.com";
+$dbUsername = "75qefHOCAc";
+$dbPassword = "QkkNpupW3Z";
+$dbName = "75qefHOCAc";
+
 
 $conn = mysqli_connect($servername, $dbUsername, $dbPassword, $dbName);
 
