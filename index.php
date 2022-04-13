@@ -61,7 +61,7 @@ require 'loader.html';
 
         <!--bg video elements-->
         <div class="home_main fit">
-            <video loop autoplay muted id="landing_video fit"><source src="img/Landing_video2.mp4" type="video/mp4"></video>
+            <video loop autoplay muted id="landing_video fit"><source src="img/Landing_video.mp4" type="video/mp4"></video>
             <div class="blackscreen fit"></div>
             <img id="fade_img" class="fit" src="./img/fade_bw.png" alt="">
             <div class="arrow bounce"></div>
